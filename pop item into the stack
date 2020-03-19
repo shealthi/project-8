@@ -1,0 +1,86 @@
+# project-8
+pop item
+#include<iostream.h>
+#include<conio.h>
+#include<iomanip.h>
+#include<stdlib.h>
+#define max3;
+class pop stack
+{
+	private;
+	int stack,max,n,top;
+	public:
+		pop stack()
+		{
+			top=-1;
+		}
+		void push
+		{
+			if(top==max-1)
+			cout<<"\n stack overflow";
+			return;
+		}
+		top++
+		stack[top]=item
+	}
+void print()
+{
+	if(top==-1)
+	cout<<"\n stack has no element";
+	else
+	{
+		for(i=top;i>=0;i--)
+		cout<<stack[i]<<setw(4);
+	}
+}
+void pop()
+{
+	if(top==-1)
+	{
+		cuot<<"\n stack underflow";
+		exit(0);
+	}
+	int n=stack[top];
+	top--;
+	cout<<item<<is poped;
+}
+};
+void main()
+{
+	push stack p;
+	char ch;
+	do
+	{
+	cout<<"\n stack operation";
+	cout<<"\n push\n2.print\n3.exit\n";
+	cout<<"\nenter your choice";
+	cin>>choice;
+	switch(choice)
+	{
+	case1:{ 
+	cout<<"\n push operation";
+	cout<<"\n enter the item to push";
+	cin>>item;
+	p.push(item);
+	cout<<end<<item<<"is pushed";
+}
+case2:{
+cout<<"\n print stack";
+p.print();
+break;
+}
+case3:{
+cout<<"\n pop operation";
+p.pop();
+break;
+}
+case4:{
+cout<<"\n thank you";
+exit(0);
+}
+cout<<"\n do you want to continue";
+cin>>ch;
+}
+while(ch=='y'\\ch=='y');
+getch();
+}
